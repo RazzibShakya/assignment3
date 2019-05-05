@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register"
-    android:background="#AADA4242">
+    android:background="#AA532222">
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center"
-
+    android:layout_marginTop="50sp"
+    android:background="#11B14646"
     >
 
     <EditText

@@ -13,11 +13,10 @@
         android:id="@+id/tabid"
         app:tabTextColor="#ffffff"
         app:tabIndicatorColor="#ffffff"
-        android:background="#7E6E8B"/>
+        android:background="#559C93"/>
 
     <android.support.v4.view.ViewPager
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:id="@+id/view_pager"/>
-
 </LinearLayout>

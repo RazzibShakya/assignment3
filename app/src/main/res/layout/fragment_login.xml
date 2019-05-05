@@ -8,24 +8,25 @@
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
         android:orientation="vertical"
-        android:layout_marginTop="30sp"
-        android:background="#95B176">
+        android:layout_marginTop="10sp"
+        android:background="#AECA86"
+        android:layout_gravity="center">
 
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="300sp"
             android:layout_height="wrap_content"
-            android:hint="Please type your username"
+            android:hint="Type your username"
             android:id="@+id/username"
             android:layout_gravity="center"
             android:textSize="20sp"/>
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="300sp"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="Type your password here"
+            android:hint="Type your password "
             android:id="@+id/password"
             android:textSize="20sp"/>
         <Button
@@ -34,7 +35,9 @@
             android:text="Login"
             android:layout_gravity="center"
             android:textSize="20sp"
-            android:id="@+id/btnLogin"/>
+            android:id="@+id/btnLogin"
+            android:layout_marginTop="20sp"
+            android:background="#11574343"/>
 
 
     </LinearLayout>

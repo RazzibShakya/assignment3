@@ -3,13 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1111"
     >
 
     <!-- TODO: Update blank fragment layout -->
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center"
+    >
 
     <ImageView
         android:id="@+id/imgItem"
@@ -23,19 +26,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Item Name"
-        android:textSize="20sp"/>
+        android:textSize="15sp"
+        />
     <TextView
         android:id="@+id/ItemPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Price pf Item"
-        android:textSize="20sp"/>
+        android:textSize="15sp" />
     <TextView
         android:id="@+id/itemdes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Description"
-        android:textSize="20sp"/>
+        android:textSize="15sp"
+      />
 
 
 </LinearLayout>

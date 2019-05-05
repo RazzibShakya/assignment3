@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".description"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#1111"
+    android:layout_gravity="center">
 
     <ImageView
         android:layout_width="200sp"
@@ -18,19 +20,22 @@
         android:layout_height="wrap_content"
         android:id="@+id/txtitemName"
         android:gravity="center"
-        android:textSize="30sp"/>
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtitemprice"
         android:gravity="center"
-        android:textSize="30sp"/>
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtitemdesc"
         android:gravity="center"
-        android:textSize="30sp"/>
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
 
 
 </LinearLayout>
